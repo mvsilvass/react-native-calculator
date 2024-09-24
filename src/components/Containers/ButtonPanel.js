@@ -1,11 +1,16 @@
 import { StyleSheet, View } from 'react-native';
 
 import ControlButtons from '../Buttons/ControlButtons/ControlButtons';
+import NumericButtons from '../Buttons/NumericButtons/NumericButtons';
 
 export default function ButtonPanel() {
   return (
     <View style={styles.buttonPanelContainer}>
         <ControlButtons />
+
+        <View style={styles.rowContainer}>
+          <NumericButtons />
+      </View>
     </View>
   );
 }
