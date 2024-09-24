@@ -2,6 +2,7 @@ import { SafeAreaView, StyleSheet, View } from 'react-native';
 import { CalculatorProvider } from './src/contexts/CalculatorContext';
 
 import Display from './src/components/Containers/Display';
+import ButtonPanel from './src/components/Containers/ButtonPanel';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <SafeAreaView style={styles.appContainer}>
         <View style={styles.calculatorContainer}>
           <Display />
+          <ButtonPanel/>
         </View>
       </SafeAreaView>
     </CalculatorProvider>
