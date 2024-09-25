@@ -23,11 +23,12 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#6C48C5',
     paddingHorizontal: 30,
-    paddingVertical: 10,
-    flex: 1,
+    padding: 15,
+    margin: 2.5,
+    flex: 1
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: 30,
+    fontSize: 25,
   },
 });

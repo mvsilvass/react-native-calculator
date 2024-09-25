@@ -33,6 +33,7 @@ export default function NumericButtons() {
             key={number}
             textValue={number.toString()}
             onPress={() => addNumber(number.toString())}
+            style={{alignSelf: "stretch"}}
         />
       ))}
     </View>
@@ -43,7 +44,6 @@ const styles = StyleSheet.create({
   numericButtonsContainer: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    flex: 1,
-    gap: 5,
+    flex: 1
   },
 });

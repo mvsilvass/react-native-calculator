@@ -15,6 +15,6 @@ export default function ControlButtons() {
 const styles = StyleSheet.create({
   controlButtonsContainer: {
     flexDirection: 'row',
-    gap: 5,
+    justifyContent: "space-between",
   },
 });
