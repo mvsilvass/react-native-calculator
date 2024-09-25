@@ -8,8 +8,8 @@ export default function ButtonPanel() {
   return (
     <View style={styles.buttonPanelContainer}>
       <View>
-          <ControlButtons />
-      </View> 
+        <ControlButtons />
+      </View>   
 
       <View style={styles.rowContainer}>
         <View style={styles.numericButtons}>
