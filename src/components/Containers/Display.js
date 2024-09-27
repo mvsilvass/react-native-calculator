@@ -1,6 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { useContext } from 'react';
 
+import metrics from '@utils/Metrics';
 import { CalculatorContext } from '@contexts/CalculatorContext';
 
 export default function Display() {
@@ -8,24 +9,28 @@ export default function Display() {
 
   return (
     <View style={styles.displayContainer}>
-      <Text style={styles.displayText}>{inputExpression}</Text>
+      <Text 
+        style={styles.displayText} 
+        numberOfLines={2} 
+        adjustsFontSizeToFit
+        minimumFontScale={0.4} 
+      >{inputExpression}</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   displayContainer: {
-    minHeight: '10%',
+    minHeight: metrics.screenHeight * 0.115,
     width: '100%',
     padding: 10,
-    marginTop: 50,
     backgroundColor: '#ECE4F5',
     justifyContent: 'center',
-    borderWidth: 2.5,
+    borderWidth: metrics.screenWidth * 0.0055,
     borderColor: '#6C48C5',
     borderRadius: 10,
   },
   displayText: {
-    fontSize: 30,
+    fontSize: metrics.screenWidth * 0.1,
   },
 });

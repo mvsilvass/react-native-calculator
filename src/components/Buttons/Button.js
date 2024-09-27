@@ -21,15 +21,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 10,
-    borderWidth: 2,
+    borderWidth: metrics.screenWidth * 0.005,
     borderColor: '#6C48C5',
     paddingHorizontal: metrics.screenWidth * 0.08,
-    padding: metrics.screenHeight * 0.025,
-    margin: 2.5,
+    paddingVertical: metrics.screenHeight * 0.025,
+    margin: metrics.screenWidth * 0.005,
     flex: 1
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: metrics.screenWidth * 0.08,
+    color: '#6C48C5',
+    fontWeight: 'bold',
+    fontSize: metrics.screenWidth * 0.05,
   },
 });
