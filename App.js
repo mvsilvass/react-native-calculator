@@ -1,8 +1,8 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
-import { CalculatorProvider } from './src/contexts/CalculatorContext';
+import { CalculatorProvider } from '@contexts/CalculatorContext';
 
-import Display from './src/components/Containers/Display';
-import ButtonPanel from './src/components/Containers/ButtonPanel';
+import Display from '@components/Containers/Display';
+import ButtonPanel from '@components/Containers/ButtonPanel';
 
 export default function App() {
   return (

@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { useContext } from 'react';
 
-import { CalculatorContext } from './../../contexts/CalculatorContext';
+import { CalculatorContext } from '@contexts/CalculatorContext';
 
 export default function Display() {
   const { inputExpression } = useContext(CalculatorContext);

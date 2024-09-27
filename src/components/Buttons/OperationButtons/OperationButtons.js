@@ -1,6 +1,6 @@
 import { View, StyleSheet } from 'react-native';
 import { useContext } from 'react';
-import { CalculatorContext } from './../../../contexts/CalculatorContext';
+import { CalculatorContext } from '@contexts/CalculatorContext';
 import Button from '../Button';
 
 export default function OperationButtons() {

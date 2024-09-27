@@ -1,8 +1,8 @@
 import { StyleSheet, View } from 'react-native';
 
-import ControlButtons from '../Buttons/ControlButtons/ControlButtons';
-import NumericButtons from '../Buttons/NumericButtons/NumericButtons';
-import OperationButtons from '../Buttons/OperationButtons/OperationButtons';
+import ControlButtons from '@components/Buttons/ControlButtons/ControlButtons';
+import NumericButtons from '@components/Buttons/NumericButtons/NumericButtons';
+import OperationButtons from '@components/Buttons/OperationButtons/OperationButtons';
 
 export default function ButtonPanel() {
   return (
