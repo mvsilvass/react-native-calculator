@@ -1,6 +1,7 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
 import { CalculatorProvider } from '@contexts/CalculatorContext';
 
+import metrics from './src/utils/Metrics';
 import Display from '@components/Containers/Display';
 import ButtonPanel from '@components/Containers/ButtonPanel';
 
@@ -20,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#E5D9F2',
     height: '100%',
     width: '100%',
-    padding: "5%",
+    padding: metrics.screenHeight * 0.02,
     justifyContent: 'center',
     alignItems: 'center',
   },

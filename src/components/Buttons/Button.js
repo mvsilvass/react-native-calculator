@@ -1,4 +1,5 @@
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import metrics from '@utils/Metrics';
 import PropTypes from 'prop-types';
 
 export default function Button({ textValue, onPress }) {
@@ -22,13 +23,13 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     borderWidth: 2,
     borderColor: '#6C48C5',
-    paddingHorizontal: 30,
-    padding: "5%",
+    paddingHorizontal: metrics.screenWidth * 0.08,
+    padding: metrics.screenHeight * 0.025,
     margin: 2.5,
     flex: 1
   },
   buttonText: {
     textAlign: 'center',
-    fontSize: 25,
+    fontSize: metrics.screenWidth * 0.08,
   },
 });
