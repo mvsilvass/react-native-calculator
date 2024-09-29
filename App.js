@@ -1,7 +1,7 @@
 import { SafeAreaView, StyleSheet } from 'react-native';
 import { CalculatorProvider } from '@contexts/CalculatorContext';
 
-import metrics from './src/utils/Metrics';
+import metrics from '@utils/Metrics';
 import Display from '@components/Containers/Display';
 import ButtonPanel from '@components/Containers/ButtonPanel';
 
