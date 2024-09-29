@@ -4,7 +4,7 @@ Este aplicativo é uma calculadora com design simples e intuitivo, desenvolvida 
 
 ## Screenshots
 
-<img src="src/assets/screenshot.jpeg" alt="Screenshot da calculadora" width="200" />
+<img src="src/assets/screenshot.jpeg" alt="Screenshot da calculadora" width="250" />
 
 ## Funcionalidades
 
